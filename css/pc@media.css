@@ -1,0 +1,22 @@
+/* PC */
+@media only screen and (min-width: 961px) {
+  footer {
+    font-size: 1em;
+  }
+  #homepage {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #intro {
+    font-size: 1.5em;
+    max-width: 400px;
+  }
+  #myimagebackground {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 100%;
+    justify-self: center;
+  }
+}

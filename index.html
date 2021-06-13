@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew's Profile</title>
+    <link
+      rel="stylesheet"
+      href="./css/templatestyle.css"
+      integrity="sha384-Ns4fG/f8onbDXLfMDqQ3c8HAfAm3Ks6FbYa0tA2ttNwUacl42ZzOOBuoNMxfUIAw"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      integrity="sha384-R08iBPMAjjPUIQrsu1LlPh3Usan999C/JFXVKm/z8dgCNOX+znHFjcioa5YRYgYW"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet@media.css"
+      integrity="sha384-VscHKH5GpPNzMLRMdpN3panEjnHzPMOOt0ISVIFfL0Quz3LwIerA1xJ+1pXL7BPh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/pc@media.css"
+      integrity="sha384-3TY48vbth1TqLTUxV1+4phLoPnGO+z1Qk6Q8IpgsN/APELALhtBGRlq2gVfHof1N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- the header will contain the bars icon for the extended navbar until the javascript can be added -->
+    <header>
+      <div id="menubars">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a class="active" href="index.html" aria-label="This Page">Home</a>
+          </li>
+          <li>
+            <a href="aboutme.html" aria-label="About Me Page">About Me</a>
+          </li>
+          <li><a href="myblog.html" aria-label="My Blog Page">My Blogs</a></li>
+          <li>
+            <a href="contact.html" aria-label="Contact Me Page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- the whole Main Body section is min VH flexbox -->
+    <div class="main" id="homepage">
+      <!-- Each subsection has its own flexbox for ease of movement -->
+      <article id="intro">
+        <h2>Hello, I am Andrew Duggan</h2>
+        <p>
+          I am a junior coder that enjoys creating highly accessible websites
+        </p>
+        <p>
+          I am currently working for Tick It Business Solutions Pty Ltd as the
+          IT manager
+        </p>
+      </article>
+      <img
+        id="myimagebackground"
+        src="./images/AndrewDuggan_image.jpg"
+        alt="Photo of Andrew Duggan"
+      />
+    </div>
+    <footer>
+      <p>© 2021 Tick It Business Solutions Pty Ltd</p>
+    </footer>
+  </body>
+</html>

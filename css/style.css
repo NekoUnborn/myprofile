@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em;
+}
+p {
+  display: flex;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
+/* Add a card effect for articles */
+.blog {
+  display: grid;
+  background-color: white;
+  padding: 20px;
+  margin: 5px;
+  max-width: 300px;
+}
+.blog img {
+  max-width: 290px;
+}
+#intro {
+  font-family: "Akaya Telivigala", cursive;
+  max-width: 300px;
+}
+#myimagebackground {
+  position: absolute;
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 30%;
+  justify-self: center;
+  max-height: calc(100vh - 80px)
+}
+
+#myimage {
+  justify-self: center;
+}
+#aboutme {
+  flex-wrap: nowrap;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: fit-content;
+  padding: 0.5rem;
+}
+#myblogs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+#projects {
+  flex-direction: row;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+#projects img {
+  width: 300px;
+  height: auto;
+}

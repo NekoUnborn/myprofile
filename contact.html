@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew's Contact Page</title>
+    <link
+      rel="stylesheet"
+      href="./css/templatestyle.css"
+      integrity="sha384-Ns4fG/f8onbDXLfMDqQ3c8HAfAm3Ks6FbYa0tA2ttNwUacl42ZzOOBuoNMxfUIAw"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      integrity="sha384-R08iBPMAjjPUIQrsu1LlPh3Usan999C/JFXVKm/z8dgCNOX+znHFjcioa5YRYgYW"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet@media.css"
+      integrity="sha384-VscHKH5GpPNzMLRMdpN3panEjnHzPMOOt0ISVIFfL0Quz3LwIerA1xJ+1pXL7BPh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/pc@media.css"
+      integrity="sha384-3TY48vbth1TqLTUxV1+4phLoPnGO+z1Qk6Q8IpgsN/APELALhtBGRlq2gVfHof1N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- the header will contain the bars icon for the extended navbar until the javascript can be added -->
+    <header>
+      <div id="menubars">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html" aria-label="Homepage">Home</a></li>
+          <li>
+            <a href="aboutme.html" aria-label="About Me Page">About Me</a>
+          </li>
+          <li><a href="myblog.html" aria-label="My Blog Page">My Blogs</a></li>
+          <li>
+            <a class="active" href="contact.html" aria-label="This Page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- the whole Main Body section is full VH flexbox -->
+    <section class="main" class="contact">
+      <!-- Each subsection has its own flexbox for ease of movement -->
+      <div>
+        <h3>andrewduggan42</h3>
+        <figure>
+          <a
+            class="unboxed"
+            href="https://www.linkedin.com/in/andrewduggan42"
+            aria-label="Andrew on LinkedIn"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="./images/Linkedin.png" alt="linkedin logo" />
+          </a>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <h3>Twitter.com/AndrewD52491622</h3>
+          <a
+            class="unboxed"
+            href="https://twitter.com/AndrewD52491622"
+            aria-label="Andrew on Twitter"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="./images/twitter.png" alt="twitter logo" />
+          </a>
+        </figure>
+      </div>
+      <div>
+        <h3>github.com/NekoUnborn</h3>
+        <figure>
+          <a
+            class="unboxed"
+            href="https://github.com/NekoUnborn"
+            aria-label="Andrew on Github"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="./images/github.png" alt="linkedin logo" />
+          </a>
+        </figure>
+      </div>
+      <div>
+        <h3>My Resume</h3>
+        <figure>
+          <a
+            class="unboxed"
+            href="./Additional/AndrewDugganCV.pdf"
+            aria-label="My Resume"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="./images/CV.png" alt="CV logo" />
+          </a>
+        </figure>
+      </div>
+    </section>
+    <footer>
+      <p>© 2021 Tick It Business Solutions Pty Ltd</p>
+    </footer>
+  </body>
+</html>

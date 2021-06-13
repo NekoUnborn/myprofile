@@ -1,0 +1,20 @@
+/* Tablets */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  footer {
+    font-size: 1em;
+  }
+  #homepage {
+    flex-direction: row;
+  }
+  #intro {
+    font-size: 0.95em;
+  }
+  #myimagebackground {
+    position: initial;
+    max-width: 300px;
+    width: 300px;
+    margin: 0 auto;
+    opacity: 100%;
+    justify-self: center;
+  }
+}
